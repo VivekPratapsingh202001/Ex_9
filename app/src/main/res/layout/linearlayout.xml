@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2bd17">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtfirst"
+    android:hint="Enter First Number="
+  android:singleLine="true"
+    android:textSize="20dp"
+
+    android:textColorHint="#fff"
+    android:textColor="#e217c0"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtsecond"
+        android:hint="Enter Second Number="
+        android:textSize="20dp"
+       android:singleLine="true"
+        android:textColorHint="#fff"
+        android:textColor="#e217c0"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnadd"
+        android:hint="Addition                                   +"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsub"
+        android:hint=" Subtruction                               -"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/btnmul"
+         android:hint="Mulltiplication                        * "
+         android:textStyle="bold"
+         android:singleLine="true"
+         android:textSize="15dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndiv"
+        android:hint="Divided                                       /"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#e21219"
+        android:hint="Answer="
+        android:textColorHint="#28483e"
+        android:id="@+id/Answer"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        android:textSize="60dp"
+        android:text="Calculater"
+        android:id="@+id/tvresult"
+        android:background="#349611"
+        android:textColor="#f212c9"/>
+
+
+
+</LinearLayout>
